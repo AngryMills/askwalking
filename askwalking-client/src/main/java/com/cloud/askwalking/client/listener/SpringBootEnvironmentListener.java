@@ -1,6 +1,6 @@
 package com.cloud.askwalking.client.listener;
 
-import com.cloud.askwalking.client.domain.SystemManager;
+import com.cloud.askwalking.common.domain.SystemManager;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.context.event.ApplicationPreparedEvent;
 import org.springframework.context.ApplicationListener;
@@ -11,7 +11,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 /**
  * SpringBoot 环境监听
  *
- * @author SHOUSHEN LUAN
+ * @author niuzhiwei
  */
 @Slf4j
 public class SpringBootEnvironmentListener implements ApplicationListener<ApplicationPreparedEvent> {

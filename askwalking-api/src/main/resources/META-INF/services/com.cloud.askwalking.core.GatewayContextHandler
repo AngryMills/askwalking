@@ -1,0 +1,34 @@
+# Common Handler
+com.cloud.askwalking.gateway.pipline.context.common.MockInvokeContextHandler
+com.cloud.askwalking.gateway.pipline.context.common.RpcInvokeContextHandler
+com.cloud.askwalking.gateway.pipline.context.common.FeignInvokeContextHandler
+
+# Flow Control Handler
+com.cloud.askwalking.gateway.pipline.context.flowcontrol.FlowControlContextHandler
+
+# App/H5 Api Handler
+com.cloud.askwalking.gateway.pipline.context.api.FeignBeforeContextHandler
+com.cloud.askwalking.gateway.pipline.context.api.RpcBeforeContextHandler
+com.cloud.askwalking.gateway.pipline.context.api.ConfigLoadContextHandler
+com.cloud.askwalking.gateway.pipline.context.api.ParamParseContextHandler
+com.cloud.askwalking.gateway.pipline.context.api.SignCheckContextHandler
+com.cloud.askwalking.gateway.pipline.context.api.UserAuthContextHandler
+
+# saas Api Handler
+com.cloud.askwalking.gateway.pipline.context.saas.SaasFeignBeforeContextHandler
+com.cloud.askwalking.gateway.pipline.context.saas.SaasRpcBeforeContextHandler
+com.cloud.askwalking.gateway.pipline.context.saas.SaasConfigLoadContextHandler
+com.cloud.askwalking.gateway.pipline.context.saas.SaasParamParseContextHandler
+com.cloud.askwalking.gateway.pipline.context.saas.SaasSignCheckContextHandler
+com.cloud.askwalking.gateway.pipline.context.saas.SaasAfterContextHandler
+com.cloud.askwalking.gateway.pipline.context.saas.SaasResourceContextHandler
+
+
+# Admin Handler
+com.cloud.askwalking.gateway.pipline.context.admin.AdminFeignBeforeContextHandler
+com.cloud.askwalking.gateway.pipline.context.admin.AdminRpcBeforeContextHandler
+com.cloud.askwalking.gateway.pipline.context.admin.AdminAuthContextHandler
+com.cloud.askwalking.gateway.pipline.context.admin.AdminConfigLoadContextHandler
+com.cloud.askwalking.gateway.pipline.context.admin.AdminParamParseContextHandler
+com.cloud.askwalking.gateway.pipline.context.admin.AdminResourceContextHandler
+com.cloud.askwalking.gateway.pipline.context.admin.AdminSignCheckContextHandler
